@@ -335,7 +335,7 @@ class MotorChannel
   // Encoder, motor, and driver instances
   BLDCMotor motor;
   BLDCDriver6PWM driver;
-  MagneticSensorMT6701SSI encoder;
+  MagneticSensorSPI encoder;
   //   Calibrated sensor stores the calibration parameters
   CalibratedSensor sensor_calibrated;
 

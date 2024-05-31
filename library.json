@@ -20,11 +20,11 @@
     "dependencies": [
         {
             "name": "Simple FOC",
-            "version": "https://github.com/Every-Flavor-Robotics/Arduino-FOC.git#cbbd999c7bec8967ac229b126f2e48d96b93478e"
+            "version": "https://github.com/Every-Flavor-Robotics/Arduino-FOC.git#master"
         },
         {
             "name": "SimpleFOCDrivers",
-            "version": "https://github.com/Every-Flavor-Robotics/Arduino-FOC-drivers.git#639943f76a16a706b5125af28e5599060a909cea"
+            "version": "https://github.com/Every-Flavor-Robotics/Arduino-FOC-drivers.git#master"
         },
         {
             "name": "ESP-Options",

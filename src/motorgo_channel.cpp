@@ -7,7 +7,7 @@ MotorGo::MotorChannel::MotorChannel(BLDCChannelParameters params,
       motor(BLDCMotor(0)),  // Placeholder value, will be set in init
       driver(BLDCDriver6PWM(params.uh, params.ul, params.vh, params.vl,
                             params.wh, params.wl)),
-      encoder(MagneticSensorMT6701SSI(params.enc_cs)),
+      encoder(MagneticSensorSPI(44, 10)),
       sensor_calibrated(CalibratedSensor(encoder))
 {
   // Set current sensing pins to input
